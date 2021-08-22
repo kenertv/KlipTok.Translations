@@ -8,6 +8,8 @@
 	"ClipViews": "Klipi Vaatamised",
 	"ShareThisClip": "Jaga seda Klippi",
 	"KlipTokContentPlaceholder": "KlipTok Sisu Kohatäide",
+	"ClippedByFormat": "Jäädvustatud {0} poolt",
+	"PreviewThumbnailForClip": "Eelvaate pisipilt klipile {0}",
 
 	// Comments
 	"ByLineFormat": "{0} {1} kirjutas:",
@@ -22,8 +24,23 @@
 	"SearchForChannel": "Otsi striimerit...",
 	"SearchNotFoundFormat": "{0} ei leitud", // {0} is the search term that was not found
 
+	// Search and Search Results
+	"SearchKlipTok": "Otsi KlipTokist...",
+	"SearchAllOfKlipTok": "Otsi kogu Kliptokist terminit {0}", // {0} is the search term to search clips for
+	"SearchResults": "Otsingutulemused",
+	"SearchedKlipTokAndFoundTemplate": "Me otsisime Klptokist \"{0}\" ja leidsime:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} mängib {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Tulemused klipi pealkirja otsinguga: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Täiendav filtreerimine",
+	"IncludeChannels": "Kaasa need kanalid",
+	"ExcludeChannels": "Välista need kanalid",
+	"FilterButton": "Filtreeri", // The button to apply the advanced search filter
+	"PreviousPage": "Eelmine lehekülg",
+	"NextPage": "Järgmine lehekülg",
+
+
 	// Sidebar
-	"SuggestedStreamers": "Striimija Soovitused",
+	"SuggestedStreamers": "Soovitatud Striimerid",
 	"FollowedStreamers": "Jälgitud Striimerid",
 	"AllStreamers": "Kõik Striimerid",
 	"About": "Meist",
@@ -31,7 +48,7 @@
 
 	// Streamer Page
 	"ClickToFollow": "Kliki, et jälgida",
-	"ClickToUnfollow": "Kliki, et jälgimine eemaldada",
+	"ClickToUnfollow": "Kliki, et jälgimine lõpetada",
 	"ActionOnTwitchTemplate": "{0} Twitchis", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
 	"LiveOnTwitch": "Praegu Twitchis otse!", 
 	"ProfilePicTemplate": "{0} profiili pilt", // {0} is the Streamer's Display Name
@@ -45,6 +62,7 @@
 	"DateRangePicker_Start": "Alguskuupäev",  // The Start Date label on the filter on the streamer page
 	"DateRangePicker_End": "Lõpukuupäev",			// The End Date label on the filter on the streamer page
 	"ShareStreamer": "Jaga Striimerit",		// The tooltip for the Share button on the streamer page
+
 	// Layout
 	"PublicBeta": "AVALIK BETA",
 	"LoggedOutFromKlipTokAndTwitch": "Välja logitud Kliptokist ja Twitchist",
@@ -113,5 +131,23 @@
 	"ResetButton": "Lähtesta", // Text on the reset button to no longer filter by date range
 	"NoClipsAvailable": "Klippe pole saadaval",
 	"AddClipsForThisStreamer": "Lisa Klippe sellele Striimijale",
-	"NotifyOnOptIn": "Pane tähele: kui lisate Klippe sellele striimijale, palume et teavitate neid sellest. Meil ei ole otsest viisi striimijaga ühendust võtta" 
+	"NotifyOnOptIn": "Pane tähele: kui lisate Klippe sellele striimijale, palume et teavitate neid sellest. Meil ei ole otsest viisi striimijaga ühendust võtta",
+
+	// Streamer Dashboard
+	"Live": "OTSE", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klipid", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Töölaud", // Label for the dashboard tab on the top of the Streamer page 
+	"ClipsCreatedLast90Days": "Viimase 90 päeva jooksul loodud klipid", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Klippe loodud nädalas", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klipid nädalapäeva järgi", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Loomise kuupäev", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Enim vaadatud klippijad", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Enim vaadatud kategooriad", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Enim meeldimisi kogunud klippijad",
+
+	// Transcription Features
+	"ClipHasTranscription": "Sellel klipil on transkriptsioon, mida on võimalik otsida", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Tulemused klippide transkriptsioonist otsinguga: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Klipi transkriptsioon AssemblyAI poolt:" // Clip transcription attribution to AssemblyAI
+
 }
